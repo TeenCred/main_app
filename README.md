@@ -97,7 +97,7 @@ https://gph.is/g/4LmJAe3
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-| Column 1 | Column 2 | Column 3 |
+| Property   | Type | Description |
 | -------- | -------- | -------- |
 | Text     | Text     | Text     |
 ### Networking
