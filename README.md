@@ -98,11 +98,11 @@ https://gph.is/g/4LmJAe3
 [This section will be completed in Unit 9]
 
 ### Models
-| -------- | Column 1 | Column 2 | Column 3 |
-| -------- | -------- | -------- | -------- |
-| dataType | Text     | Text     | -------- |
-| -------- | -------- | -------- | -------- |
-| -------- | Text     | Text     | Text     |
+| -------- | Column 1 | Column 2 | Column 3 | Column 3 | Column 3 | Column 3 |
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| dataType | Text     | Text     | -------- | -------- | -------- | -------- |
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| -------- | Text     | Text     | Text     | -------- | -------- | -------- |
 
 ### Networking
 May use Plaid banking API to connect with bank accounts.
