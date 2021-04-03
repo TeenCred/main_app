@@ -101,7 +101,7 @@ https://gph.is/g/4LmJAe3
 ### Models
 |          | acctName | password | bankAcct |  income  | payment  | Column 3 |
 | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
-| dataType | Text     | Text     |  ??????? |  Float   |  Float   | -------- |
+| dataType | String | String |  ??????? |  Float   |  Float   | -------- |
 | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
 | description | Text     | Text     | Text     | -------- | -------- | -------- |
 
