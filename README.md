@@ -97,7 +97,9 @@ https://gph.is/g/4LmJAe3
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+| Column 1 | Column 2 | Column 3 |
+| -------- | -------- | -------- |
+| Text     | Text     | Text     |
 ### Networking
 May use Plaid banking API to connect with bank accounts.
 (API Documentation: https://plaid.com/products/auth/overview/?utm_source=bing&utm_medium=search&utm_campaign=Search_B_Brand_Exact&utm_content=plaidapi&utm_term=plaid%20api&utm_creative=)
