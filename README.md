@@ -12,12 +12,12 @@ Our app helps college students build better financial habits and pay for school 
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category: Personal Finance**
+- **Mobile: The app is primarily used for mobile, but there may be videos tied to the app. So, YouTube is pretty much our desktop part of the idea.**
+- **Story: Aimed to help users, primarily students, to build better financial habits and access more powerful finance tools such as scholarships and credit.**
+- **Market: College Students and Financially Illiterate**
+- **Habit: The app makes it simpler and less cary to manage personal finance.**
+- **Scope: Again, college students are the primary target.**
 
 ## Product Spec
 
