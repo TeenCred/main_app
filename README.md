@@ -99,7 +99,7 @@ https://gph.is/g/4LmJAe3
 
 ### Models
 | -------- | Column 1 | Column 2 | Column 3 |
-| Data Type| -------- | -------- | -------- |
+| dataType | -------- | -------- | -------- |
 | -------- | Text     | Text     | -------- |
 | -------- | -------- | -------- | -------- |
 | -------- | Text     | Text     | Text     |
