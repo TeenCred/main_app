@@ -27,8 +27,9 @@ Our app helps college students build better financial habits and pay for school 
 
 * [ ] Register an account
 * [ ] Login to account
-* [ ] Enter in new income
-* [ ] Budget from income
+* [ ] Enter in new grant / transaction
+* [ ] Enter in set income if valid
+* [ ] Budget from paymment
 * [ ] Set goals to save money towards
 
 **Optional Nice-to-have Stories**
@@ -98,11 +99,11 @@ https://gph.is/g/4LmJAe3
 [This section will be completed in Unit 9]
 
 ### Models
-| -------- | Column 1 | Column 2 | Column 3 | Column 3 | Column 3 | Column 3 |
+|          | acctName | password | bankAcct |  income  | payment  | Column 3 |
 | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
-| dataType | Text     | Text     | -------- | -------- | -------- | -------- |
+| dataType | Text     | Text     |  ??????? |  Float   |  Float   | -------- |
 | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
-| -------- | Text     | Text     | Text     | -------- | -------- | -------- |
+| description | Text     | Text     | Text     | -------- | -------- | -------- |
 
 ### Networking
 May use Plaid banking API to connect with bank accounts.
