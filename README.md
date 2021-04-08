@@ -1,3 +1,5 @@
+
+
 # TeenCred
 
 ## Table of Contents
@@ -12,12 +14,12 @@ Our app helps college students build better financial habits and pay for school 
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category: Personal Finance**
-- **Mobile: The app is primarily used for mobile, but there may be videos tied to the app. So, YouTube is pretty much our desktop part of the idea.**
-- **Story: Aimed to help users, primarily students, to build better financial habits and access more powerful finance tools such as scholarships and credit.**
-- **Market: College Students and Financially Illiterate**
-- **Habit: The app makes it simpler and less cary to manage personal finance.**
-- **Scope: Again, college students are the primary target.**
+- **Category:**
+- **Mobile:**
+- **Story:**
+- **Market:**
+- **Habit:**
+- **Scope:**
 
 ## Product Spec
 
@@ -27,9 +29,8 @@ Our app helps college students build better financial habits and pay for school 
 
 * [ ] Register an account
 * [ ] Login to account
-* [ ] Enter in new grant / transaction
-* [ ] Enter in set income if valid
-* [ ] Budget from paymment
+* [ ] Enter in new income
+* [ ] Budget from income
 * [ ] Set goals to save money towards
 
 **Optional Nice-to-have Stories**
@@ -88,23 +89,22 @@ Our app helps college students build better financial habits and pay for school 
     * 
 
 ## Wireframes
-![20210401_232923](https://user-images.githubusercontent.com/77257966/113388478-28b56300-9343-11eb-95c2-c3df51dc3621.jpg)
-
+https://gph.is/g/4LmJAe3
 
 ### [BONUS] Digital Wireframes & Mockups
 
 ### [BONUS] Interactive Prototype
-https://gph.is/g/4LmJAe3
 
 ## Schema 
 [This section will be completed in Unit 9]
-
 ### Models
-|          | acctName | password | bankAcct |  income  | payment  | Column 3 |
+| Property Name | acctName | password | bankAcctRoutingNum |  income  | payment  | transactionTimes |
 | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
-| dataType | String | String |  ??????? |  Float   |  Float   | -------- |
-| -------- | -------- | -------- | -------- | -------- | -------- | -------- |
-| description | Text     | Text     | Text     | -------- | -------- | -------- |
+| Data Type | String | String |  Integer |  Float   |  Float   | DateTime |
+| description | Unique ID for each user   | password for the user  |  Unique ID for user's bank account  | Income amount that user inputs | One-time transaction in dollars | Number of times transaction has been made |
+
+
+
 
 ### Networking
 May use Plaid banking API to connect with bank accounts.
