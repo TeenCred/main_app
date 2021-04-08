@@ -89,11 +89,12 @@ Our app helps college students build better financial habits and pay for school 
 
 ## Wireframes
 ![20210401_232923](https://user-images.githubusercontent.com/77257966/113388478-28b56300-9343-11eb-95c2-c3df51dc3621.jpg)
-https://gph.is/g/4LmJAe3
+
 
 ### [BONUS] Digital Wireframes & Mockups
 
 ### [BONUS] Interactive Prototype
+https://gph.is/g/4LmJAe3
 
 ## Schema 
 [This section will be completed in Unit 9]
