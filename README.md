@@ -100,7 +100,7 @@ https://gph.is/g/4LmJAe3
 ### Models
 | Property | Data Type | Description |
 | -------- | -------- | -------- |
-| acctName |  | String | Unique ID for each user.|
+| acctName  | String | Unique ID for each user.|
 | password   | String     | Password for the user.    |
 | bankAcctRoutingNum | Integer | Unique ID for user's bank account. |
 | income | Float | Income amount that user inputs. |
