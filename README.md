@@ -99,12 +99,13 @@ https://gph.is/g/4LmJAe3
 [This section will be completed in Unit 9]
 ### Models
 | Property | Data Type | Description |
+| -------- | -------- | -------- |
 | acctName |  | String | Unique ID for each user.|
 | password   | String     | Password for the user.    |
 | bankAcctRoutingNum | Integer | Unique ID for user's bank account. |
 | income | Float | Income amount that user inputs. |
 | payment| Float | One-time transaction in dollars. |
-|transactionTime| DateTime | Number of times transaction has been made. |
+| transactionTime | DateTime | Number of times transaction has been made. |
 
 
 
