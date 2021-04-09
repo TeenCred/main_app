@@ -1,5 +1,3 @@
-
-
 # TeenCred
 
 ## Table of Contents
@@ -98,14 +96,21 @@ https://gph.is/g/4LmJAe3
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
+
+
 | Property | Data Type | Description |
 | -------- | -------- | -------- |
-| acctName  | String | Unique ID for each user.|
+| acctName | String | Unique ID for each user.|
 | password   | String     | Password for the user.    |
-| bankAcctRoutingNum | Integer | Unique ID for user's bank account. |
+| bankAcctRoutingNumber | Integer | Unique ID for user's bank account. |
 | income | Float | Income amount that user inputs. |
-| payment| Float | One-time transaction in dollars. |
+| deposit | Float | One-time transaction in dollars. |
+| budget | Float | If deposit is positive, this is the percentage of the deposit saved towards a goal. |
+| totalMoneyInBank | Float | Number of dollars available in bank account |
 | transactionTime | DateTime | Number of times transaction has been made. |
+| goalName | String | Name of the expense user wants to save moeny towards |
+| goalAmt | Float | Number of dollars needeed to save for goal |
+
 
 
 
@@ -114,6 +119,29 @@ https://gph.is/g/4LmJAe3
 May use Plaid banking API to connect with bank accounts.
 (API Documentation: https://plaid.com/products/auth/overview/?utm_source=bing&utm_medium=search&utm_campaign=Search_B_Brand_Exact&utm_content=plaidapi&utm_term=plaid%20api&utm_creative=)
 
-- [Add list of network requests by screen]
+* Registration Screen
+   * (Create/POST) Creates a new acctName
+   * (Create/POST) Creates a password
+
+* Login Screen
+   * (Read/GET) Query logs in acctName
+   * (Read/GET) Query finds password
+
+* Stream Screen
+    * (Read/GET) Query finds 5 most recent payments from Plaid API
+    * (Read/GET) Query logs totalMoneyInBank from bankAcctRoutingNumber retrived from Plaid API
+    * (Create/POST) Create a new goal to save money towards with goalName and goalAmt objects
+    * (Create/POST) Creates a percentage of a deposit (a 'budget') to allocate towards a goal
+
+* Profile Screen
+    * (Create/POST) Creates a bank account from data retrieved by the Plaid API
+
 - [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+- 
+[OPTIONAL: Existing API Endpoints]
+
+| HTTP Verb | Endpoint | Description |
+| -------- | -------- | -------- |
+| GET | /transactions/get | Fetch transaction data |
+| GET | /accounts/balance/get | Fetch real-time account balances |
+| GET | /accounts/get/depository | Finds information on whether an account is a checking or savings account |
