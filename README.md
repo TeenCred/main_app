@@ -28,7 +28,7 @@ Our app helps college students build better financial habits and pay for school 
 * [x] Login to account
 * [ ] Enter in new income
 * [ ] Budget from income
-* [ ] Set goals/exepnses to save money towards
+* [x] Set goals/exepnses to save money towards
 
 **Optional Nice-to-have Stories**
 
