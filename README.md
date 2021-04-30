@@ -24,8 +24,8 @@ Our app helps college students build better financial habits and pay for school 
 
 **Required Must-have Stories**
 
-* [ ] Register an account
-* [ ] Login to account
+* [x] Register an account
+* [x] Login to account
 * [ ] Enter in new income
 * [ ] Budget from income
 * [ ] Set goals/exepnses to save money towards
