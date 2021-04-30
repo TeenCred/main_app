@@ -135,6 +135,10 @@ May use Plaid banking API to connect with bank accounts.
 * Profile Screen
     * (Create/POST) Creates a bank account from data retrieved by the Plaid API
 
+GIF For Login Screen
+![teencred_prototype](https://user-images.githubusercontent.com/77257966/116647425-589a5b00-a92f-11eb-994e-d228998eb90f.gif)
+
+
 - [Create basic snippets for each Parse network request]
 - 
 [OPTIONAL: Existing API Endpoints]
